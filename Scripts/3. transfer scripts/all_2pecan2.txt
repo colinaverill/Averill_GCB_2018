@@ -1,0 +1,4 @@
+#!/bin/bash
+
+#transferring JAGS output back to pecan2
+scp caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/output_data/* /fs/data3/caverill/Averill_2018_GCB/JAGS_output

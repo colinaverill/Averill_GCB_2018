@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#transferring all at once.
+scp /home/caverill/Averill_FIA_GCB_2018/required_products_utilities/master_path_list.r /home/caverill/Averill_FIA_GCB_2018/Scripts/2.\ data\ analysis\ scripts/1.\ all\ data\ analysis/* /home/caverill/Averill_FIA_GCB_2018/Scripts/2.\ data\ analysis\ scripts/2.\ eastern\ data\ analysis/* /home/caverill/Averill_FIA_GCB_2018/Scripts/2.\ data\ analysis\ scripts/3.\ nomid\ eastern\ data\ analysis/* caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/
+
+#Transferring scripts to scc1
+#master path list.
+#scp /home/caverill/Averill_FIA_GCB_2018/required_products_utilities/master_path_list.r caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/
+#all data analysis scripts.
+#scp /home/caverill/Averill_FIA_GCB_2018/Scripts/2.\ data\ analysis\ scripts/1.\ all\ data\ analysis/*  caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/
+#eastern data analysis scripts.
+#scp /home/caverill/Averill_FIA_GCB_2018/Scripts/2.\ data\ analysis\ scripts/2.\ eastern\ data\ analysis/*  caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/
+#NOMID data analysis scripts.
+#scp /home/caverill/Averill_FIA_GCB_2018/Scripts/2.\ data\ analysis\ scripts/3.\ nomid\ eastern\ data\ analysis/*  caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/
+
+#Transferring data to scc1
+scp /fs/data3/caverill/Averill_2018_GCB/*.rds caverill@scc1.bu.edu:/project/talbot-lab-data/caverill/Averill_GCB_2018/input_data/

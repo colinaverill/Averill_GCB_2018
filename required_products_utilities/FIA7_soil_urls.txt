@@ -1,0 +1,5 @@
+# FIA7_soil_urls
+https://apps.fs.usda.gov/fia/datamart/CSV/SOILS_LAB.zip
+https://apps.fs.usda.gov/fia/datamart/CSV/SOILS_SAMPLE_LOC.zip
+https://apps.fs.usda.gov/fia/datamart/CSV/SOILS_VISIT.zip
+https://apps.fs.usda.gov/fia/datamart/CSV/SOILS_EROSION.zip

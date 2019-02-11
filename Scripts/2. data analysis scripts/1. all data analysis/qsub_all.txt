@@ -1,0 +1,27 @@
+#!/bin/bash -l
+
+#submit all jobs!
+qsub 1q._beta_analysis_ALL_qsub.txt
+qsub 1q._beta_analysis_EAST_qsub.txt
+qsub 1q._beta_analysis_NOMID_qsub.txt
+qsub 2q._growth_analysis_ALL_qsub.txt
+qsub 2q._growth_analysis_EAST_qsub.txt
+qsub 2q._growth_analysis_NOMID_qsub.txt
+qsub 2q.b._growth_analysis_ALL_qsub.txt
+qsub 2q.b._growth_analysis_EAST_qsub.txt
+qsub 2q.b._growth_analysis_NOMID_qsub.txt
+qsub 3q._AM_recruitment_analysis_ALL_qsub.txt
+qsub 3q._AM_recruitment_analysis_EAST_qsub.txt
+qsub 3q._AM_recruitment_analysis_NOMID_qsub.txt
+qsub 4q._EM_recruitment_analysis_ALL_qsub.txt
+qsub 4q._EM_recruitment_analysis_EAST_qsub.txt
+qsub 4q._EM_recruitment_analysis_NOMID_qsub.txt
+qsub 5q._mortality_analysis_ALL_qsub.txt
+qsub 5q._mortality_analysis_EAST_qsub.txt
+qsub 5q._mortality_analysis_NOMID_qsub.txt
+qsub 6q._soils_analysis_ALL_qsub.txt
+qsub 6q._soils_analysis_EAST_qsub.txt
+qsub 6q._soils_analysis_NOMID_qsub.txt
+qsub 7q._soils.FF_analysis_ALL_qsub.txt
+qsub 7q._soils.FF_analysis_EAST_qsub.txt
+qsub 7q._soils.FF_analysis_NOMID_qsub.txt
